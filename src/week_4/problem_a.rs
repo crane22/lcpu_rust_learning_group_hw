@@ -35,7 +35,7 @@ pub fn quiz() {
     // The count ends here.
 
     let how_many_times: u8 = {
-        2 // FIX ME
+        5 // FIX ME
     };
     println!("B is moved {} times.",  how_many_times);
 
@@ -58,7 +58,7 @@ pub fn quiz() {
      * A(1) is dropped.
      */
 
-    let i_need_a_very_special_name = { // FIX ME
+    let _ = { // FIX ME
         a1.clone()
     };
 
